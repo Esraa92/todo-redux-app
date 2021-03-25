@@ -1,0 +1,6 @@
+<header class="header">
+    <h1>todos</h1>
+    <input #inputTodo
+           (keyup.enter)="crearTodo(inputTodo.value)"
+           class="new-todo" placeholder="Nueva tarea" autofocus>
+</header>
